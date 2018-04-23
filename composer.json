@@ -19,14 +19,5 @@
         "composer/composer": "dev-master",
         "phpspec/phpspec": "~2.3"
     },
-    "replace": {
-        "franzliedke/studio": "self.version"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.11.x-dev"
-        },
-        "class": "Studio\\Composer\\StudioPlugin"
-    },
     "bin": ["bin/studio"]
 }
