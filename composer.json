@@ -4,20 +4,27 @@
     "keywords": ["composer", "development", "workflow"],
     "type": "composer-plugin",
     "license": "MIT",
-    "autoload": {
+    "autoload":
+    {
         "psr-4": {
             "Studio\\": "src"
         }
     },
-    "require": {
+    "require":
+    {
         "composer-plugin-api": "^1.0",
         "symfony/console": "^2.7 || ^3.0 || ^4.0",
         "symfony/filesystem": "^2.5 || ^3.0 || ^4.0",
         "symfony/process": "^2.5 || ^3.0 || ^4.0"
     },
-    "require-dev": {
+    "require-dev":
+    {
         "composer/composer": "dev-master",
         "phpspec/phpspec": "~2.3"
+    },
+    "extra":
+    {
+        "class": "Studio\\Composer\\StudioPlugin"
     },
     "bin": ["bin/studio"]
 }
