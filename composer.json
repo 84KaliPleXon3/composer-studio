@@ -4,6 +4,7 @@
     "keywords": ["composer", "development", "workflow"],
     "type": "composer-plugin",
     "license": "MIT",
+    "version": "0.14.1",
     "autoload":
     {
         "psr-4": {
